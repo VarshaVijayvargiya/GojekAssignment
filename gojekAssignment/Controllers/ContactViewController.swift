@@ -42,11 +42,9 @@ class ContactViewController : UIViewController {
 
     @objc func groupBTn()
     {
-    
+      // Functionality to be added
     }
     @objc func handleAddBtn()  {
-        
-        
         
         guard let myVC = self.storyboard?.instantiateViewController(withIdentifier: Identifier.addEditViewController) else { return }
         let navController = UINavigationController(rootViewController: myVC)

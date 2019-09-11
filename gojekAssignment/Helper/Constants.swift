@@ -67,6 +67,8 @@ struct Static {
     static let mobileTag = "phone_number"
     
     static let favoriteTag = "favorite"
+    
+    static let jsonTag = ".json"
 }
 
   

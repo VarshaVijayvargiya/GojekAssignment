@@ -16,7 +16,7 @@ class ApiCall
     
    class func deleteDataFromServer(userid : Int, vc : UIViewController ) {
        MBProgressHUD.showAdded(to: vc.view, animated: true)
-        let URLStr = Constants.deleteContactUrl + String(userid) + ".json"
+        let URLStr = Constants.deleteContactUrl + String(userid) + Static.jsonTag
         let url = URL(string: URLStr)
         
         let configuration = URLSessionConfiguration.default
@@ -63,7 +63,7 @@ class ApiCall
     class func addDataOnServer(prameters :[String : Any], vc : UIViewController)
     {
         MBProgressHUD.showAdded(to: vc.view, animated: true)
-        let url = URL(string: "http://gojek-contacts-app.herokuapp.com/contacts.json")!
+        let url = URL(string: Constants.contactUrl)!
         
         
         let session = URLSession.shared
@@ -114,7 +114,7 @@ class ApiCall
     class func editDataOnServer(prameters :[String : Any], userid : Int, vc : UIViewController)
     {
         MBProgressHUD.showAdded(to: vc.view, animated: true)
-        let URLStr = Constants.deleteContactUrl + String(userid) + ".json"
+        let URLStr = Constants.deleteContactUrl + String(userid) + Static.jsonTag
         let url = URL(string: URLStr)!
         
         

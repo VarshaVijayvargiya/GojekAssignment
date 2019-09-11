@@ -10,6 +10,7 @@ import UIKit
 import SDWebImage
 import MBProgressHUD
 
+
 protocol DescriptionViewControllerDelegate: AnyObject {
     func update(contactDic: ContactDesModel, userid : Int)
 }
@@ -66,7 +67,7 @@ class ContactDescriptionViewController: UIViewController {
     
     func getContactDetailFromServer(){
         MBProgressHUD.showAdded(to: self.view, animated: true)
-        let URLStr = Constants.contactDetailUrl + String(userId) + ".json"
+        let URLStr = Constants.contactDetailUrl + String(userId) + Static.jsonTag
         let url = URL(string: URLStr)
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
             guard let data = data else { return }
