@@ -35,8 +35,15 @@ class ContactViewController : UIViewController {
         let backImg: UIImage = UIImage(named: ImageName.home_add)!
         logoutBarButtonItem.setBackgroundImage(backImg, for: .normal, barMetrics: .default)
         self.navigationItem.rightBarButtonItem  = logoutBarButtonItem
+        
+        self.navigationItem.leftBarButtonItem  = UIBarButtonItem(title: "Groups", style: .plain, target: self, action: #selector(groupBTn))
+        
     }
 
+    @objc func groupBTn()
+    {
+    
+    }
     @objc func handleAddBtn()  {
         
         
