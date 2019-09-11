@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D5F00C584496FA769A4059 /* Pods_gojekAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8F149B53BFA3F591EAA7CB /* Pods_gojekAssignment.framework */; };
 		281878D6232630C400843F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878D5232630C400843F83 /* AppDelegate.swift */; };
-		281878D8232630C400843F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878D7232630C400843F83 /* ViewController.swift */; };
+		281878D8232630C400843F83 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878D7232630C400843F83 /* ContactViewController.swift */; };
 		281878DB232630C400843F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281878D9232630C400843F83 /* Main.storyboard */; };
 		281878DD232630C800843F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281878DC232630C800843F83 /* Assets.xcassets */; };
 		281878E0232630C800843F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281878DE232630C800843F83 /* LaunchScreen.storyboard */; };
+		281878E82326343D00843F83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878E72326343D00843F83 /* Constants.swift */; };
+		281878EA2326348C00843F83 /* ContactListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878E92326348C00843F83 /* ContactListModel.swift */; };
+		281878F2232640D900843F83 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878F1232640D900843F83 /* SwiftyJSON.swift */; };
+		281878F523264F9D00843F83 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878F423264F9D00843F83 /* ContactCell.swift */; };
+		281878F82326520800843F83 /* RoundImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878F72326520800843F83 /* RoundImage+Extension.swift */; };
+		281878FA2326600C00843F83 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878F92326600C00843F83 /* Toast.swift */; };
+		281878FC2326626900843F83 /* ContactDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878FB2326626900843F83 /* ContactDescriptionViewController.swift */; };
+		281878FE232681F200843F83 /* ContactDescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878FD232681F200843F83 /* ContactDescriptionModel.swift */; };
+		281879002327364900843F83 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281878FF2327364900843F83 /* ApiCall.swift */; };
+		2818790223276E7300843F83 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2818790123276E7300843F83 /* AddEditViewController.swift */; };
+		28187912232799D200843F83 /* HideKeyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28187911232799D200843F83 /* HideKeyboard+Extension.swift */; };
+		281879142328092A00843F83 /* GradientView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281879132328092A00843F83 /* GradientView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		281878D2232630C400843F83 /* gojekAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gojekAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		281878D5232630C400843F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		281878D7232630C400843F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		281878D7232630C400843F83 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		281878DA232630C400843F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		281878DC232630C800843F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281878DF232630C800843F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		281878E1232630C800843F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281878E72326343D00843F83 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		281878E92326348C00843F83 /* ContactListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListModel.swift; sourceTree = "<group>"; };
+		281878F1232640D900843F83 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		281878F423264F9D00843F83 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		281878F72326520800843F83 /* RoundImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoundImage+Extension.swift"; sourceTree = "<group>"; };
+		281878F92326600C00843F83 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		281878FB2326626900843F83 /* ContactDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDescriptionViewController.swift; sourceTree = "<group>"; };
+		281878FD232681F200843F83 /* ContactDescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDescriptionModel.swift; sourceTree = "<group>"; };
+		281878FF2327364900843F83 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		2818790123276E7300843F83 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		28187911232799D200843F83 /* HideKeyboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HideKeyboard+Extension.swift"; sourceTree = "<group>"; };
+		281879132328092A00843F83 /* GradientView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GradientView+Extension.swift"; sourceTree = "<group>"; };
+		9C8F149B53BFA3F591EAA7CB /* Pods_gojekAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gojekAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1ACF09A1E26101F5C716A1F /* Pods-gojekAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gojekAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-gojekAssignment/Pods-gojekAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		D3C6912F1AFD272A7CF7B1C3 /* Pods-gojekAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gojekAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gojekAssignment/Pods-gojekAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D5F00C584496FA769A4059 /* Pods_gojekAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				281878D4232630C400843F83 /* gojekAssignment */,
 				281878D3232630C400843F83 /* Products */,
+				54177C2F006272F4013F1DDE /* Pods */,
+				72FA0CFC85D58537C5BE63A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,91 @@
 		281878D4232630C400843F83 /* gojekAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				281878D5232630C400843F83 /* AppDelegate.swift */,
-				281878D7232630C400843F83 /* ViewController.swift */,
+				281878F6232651B800843F83 /* Extension */,
+				281878F323264F8A00843F83 /* View */,
+				281878ED232634BB00843F83 /* Controllers */,
+				281878EC232634A700843F83 /* Helper */,
+				281878EB2326349100843F83 /* Model */,
+				281878EE232635F400843F83 /* Resource */,
 				281878D9232630C400843F83 /* Main.storyboard */,
-				281878DC232630C800843F83 /* Assets.xcassets */,
 				281878DE232630C800843F83 /* LaunchScreen.storyboard */,
 				281878E1232630C800843F83 /* Info.plist */,
 			);
 			path = gojekAssignment;
+			sourceTree = "<group>";
+		};
+		281878EB2326349100843F83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				281878E92326348C00843F83 /* ContactListModel.swift */,
+				281878FD232681F200843F83 /* ContactDescriptionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		281878EC232634A700843F83 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				281878F92326600C00843F83 /* Toast.swift */,
+				281878F1232640D900843F83 /* SwiftyJSON.swift */,
+				281878E72326343D00843F83 /* Constants.swift */,
+				281878FF2327364900843F83 /* ApiCall.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		281878ED232634BB00843F83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				281878D7232630C400843F83 /* ContactViewController.swift */,
+				281878FB2326626900843F83 /* ContactDescriptionViewController.swift */,
+				2818790123276E7300843F83 /* AddEditViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		281878EE232635F400843F83 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				281878D5232630C400843F83 /* AppDelegate.swift */,
+				281878DC232630C800843F83 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		281878F323264F8A00843F83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				281878F423264F9D00843F83 /* ContactCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		281878F6232651B800843F83 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				28187911232799D200843F83 /* HideKeyboard+Extension.swift */,
+				281878F72326520800843F83 /* RoundImage+Extension.swift */,
+				281879132328092A00843F83 /* GradientView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		54177C2F006272F4013F1DDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3C6912F1AFD272A7CF7B1C3 /* Pods-gojekAssignment.debug.xcconfig */,
+				D1ACF09A1E26101F5C716A1F /* Pods-gojekAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72FA0CFC85D58537C5BE63A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8F149B53BFA3F591EAA7CB /* Pods_gojekAssignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281878E4232630C800843F83 /* Build configuration list for PBXNativeTarget "gojekAssignment" */;
 			buildPhases = (
+				86EE1A4B7A19F9C31D8A7C98 /* [CP] Check Pods Manifest.lock */,
 				281878CE232630C400843F83 /* Sources */,
 				281878CF232630C400843F83 /* Frameworks */,
 				281878D0232630C400843F83 /* Resources */,
+				858F26980B3A09EB3DA89BAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +240,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		858F26980B3A09EB3DA89BAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-gojekAssignment/Pods-gojekAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gojekAssignment/Pods-gojekAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EE1A4B7A19F9C31D8A7C98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gojekAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		281878CE232630C400843F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281878D8232630C400843F83 /* ViewController.swift in Sources */,
+				281878F523264F9D00843F83 /* ContactCell.swift in Sources */,
+				281878FA2326600C00843F83 /* Toast.swift in Sources */,
+				281878EA2326348C00843F83 /* ContactListModel.swift in Sources */,
+				281878FC2326626900843F83 /* ContactDescriptionViewController.swift in Sources */,
+				281879142328092A00843F83 /* GradientView+Extension.swift in Sources */,
+				281879002327364900843F83 /* ApiCall.swift in Sources */,
+				281878D8232630C400843F83 /* ContactViewController.swift in Sources */,
+				281878F82326520800843F83 /* RoundImage+Extension.swift in Sources */,
+				281878F2232640D900843F83 /* SwiftyJSON.swift in Sources */,
+				28187912232799D200843F83 /* HideKeyboard+Extension.swift in Sources */,
+				2818790223276E7300843F83 /* AddEditViewController.swift in Sources */,
+				281878FE232681F200843F83 /* ContactDescriptionModel.swift in Sources */,
 				281878D6232630C400843F83 /* AppDelegate.swift in Sources */,
+				281878E82326343D00843F83 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +451,7 @@
 		};
 		281878E5232630C800843F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C6912F1AFD272A7CF7B1C3 /* Pods-gojekAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +469,7 @@
 		};
 		281878E6232630C800843F83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1ACF09A1E26101F5C716A1F /* Pods-gojekAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
