@@ -117,7 +117,14 @@ class ContactDescriptionViewController: UIViewController {
     @IBAction func emailButtonTappedAction()
     {
        
-        let url: NSURL = URL(string: "mailto:\(String(describing: self.emailLabal.text))")! as NSURL
-        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        if  let url = URL(string: "mailto:\(String(describing: self.emailLabal.text))")  {
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+    }
+    
+    
     }
 }
